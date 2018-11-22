@@ -1,7 +1,7 @@
 pipeline {
     agent {
       docker {
-        image 'aerian-studios-jenkins/docker-build-image-ubuntu1804-php7:latest'
+        image 'docker-build-image-ubuntu1804-php7:latest'
         args '--user=root'
       }
     }
